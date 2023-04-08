@@ -117,7 +117,7 @@ class GraphQLLexer(object):
     t_BRACE_R = r'\}'
     t_SPREAD = r'\.\.\.'
 
-    t_NAME = r'[_A-Za-z][_0-9A-Za-z]*'
+    t_NAME = r'[_A-Za-z][\._0-9A-Za-z]*'
 
     t_ignore = whitespace + comma
 
